@@ -1,0 +1,31 @@
+POST  http://localhost:3000/suscriber
+Content-Type: application/json
+
+
+{
+    "name": "Farhan ammar",
+    "suscribeToChanel": "Tayo Bis KEcil"
+}
+
+###
+
+GET  http://localhost:3000/suscriber
+
+###
+
+GET  http://localhost:3000/suscriber/5f0fdff239c3a61f38182300
+
+###
+
+DELETE http://localhost:3000/suscriber/5f0fe37e6774f21a184c2381
+
+
+
+###
+
+PATCH  http://localhost:3000/suscriber/5f0fdebc39c3a61f381822fc
+Content-Type: application/json
+
+{
+    "name" : "ganteng"
+}
